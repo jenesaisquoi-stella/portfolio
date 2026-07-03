@@ -1,0 +1,37 @@
+name: 每日更新 AI 产业新闻
+
+on:
+  schedule:
+    # UTC 00:00 = 北京时间 08:00，每天跑一次
+    - cron: '0 0 * * *'
+  workflow_dispatch:        # 支持手动触发
+
+permissions:
+  contents: write           # 允许提交回仓库
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 配置 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 抓取并更新 news.json
+        run: node scripts/fetch-news.js
+
+      - name: 提交变更
+        run: |
+          git config user.name  "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add news.json
+          if git diff --staged --quiet; then
+            echo "无变更，跳过提交"
+          else
+            git commit -m "chore: 每日更新 AI 产业新闻 $(date +%F)"
+            git push
+          fi

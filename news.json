@@ -1,0 +1,72 @@
+{
+  "updated": "2026-07-03",
+  "note": "AI 产业链重点新闻。可由 GitHub Actions 每日自动更新，也可手动编辑。layer: up=上游 mid=中游 down=下游 trend=趋势",
+  "items": [
+    {
+      "layer": "mid", "stock": "英伟达 NVDA", "date": "2026-06-22",
+      "title": "英伟达 Vera Rubin 平台量产前夕，全球首个 100% 液冷 AI 计算平台",
+      "summary": "英伟达官方详解 Rubin 平台 45℃ 全面液冷技术，系统每颗芯片均靠液冷散热，写入 DSX AI 工厂参考设计。今秋启动量产出货，带动施耐德、英维克、曙光数创等液冷链同步转型。",
+      "source": "21世纪经济报道", "url": "https://www.21jingji.com/article/20260622/herald/e5689ef8db245ad0fa2499882b49eb93.html"
+    },
+    {
+      "layer": "mid", "stock": "英伟达 NVDA", "date": "2026-06-01",
+      "title": "黄仁勋 COMPUTEX 官宣 Vera Rubin 全面投产，跳过试产直接量产",
+      "summary": "Rubin 供应链规模为 Blackwell 两倍，覆盖 350+ 工厂；整机柜组装从 2 小时/台压缩至 5 分钟/台。Q3 单月出货 8-12 万颗，Q4 放量，2027 Q1 全行业大规模交付。",
+      "source": "科创板日报 / TrendForce", "url": "https://www.chaoqing-i.com/view_646.html"
+    },
+    {
+      "layer": "mid", "stock": "寒武纪 688256", "date": "2026-06-30",
+      "title": "寒武纪成科创板首只万亿市值股，Q1 营收同比 +159%",
+      "summary": "2025 全年首次盈利（营收 65 亿、净利 20.6 亿），2026 Q1 单季营收 28.85 亿同比 +159.56%。大摩 6/22 上调目标价至 1528 元。国产 AI 芯片需求爆发，国产占比升至 41%。",
+      "source": "腾讯新闻 / 高盛·大摩研报", "url": "https://new.qq.com/rain/a/20260630A0877600"
+    },
+    {
+      "layer": "mid", "stock": "华为昇腾", "date": "2026-04-30",
+      "title": "华为昇腾 384 超节点商用超 500 套，昇腾 950 将于 2026 Q4 上市",
+      "summary": "昇腾 384 超节点（384 颗 910C）已规模服务互联网/金融/电力等行业。下一代昇腾 950 超节点搭载 8192 张 950DT，FP8 算力 8 EFLOPS，为 DeepSeek-V4 提供关键算力。",
+      "source": "腾讯财经 / 数字中国峰会", "url": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?id=SN20260430155827a6e14439"
+    },
+    {
+      "layer": "down", "stock": "DeepSeek", "date": "2026-06-29",
+      "title": "DeepSeek 完成 510 亿首轮融资估值近 4000 亿，V4 正式版 7 月中旬上线",
+      "summary": "投后估值约 500 亿美元创中国 AI 单轮融资纪录。同期发布 DSpark 推测解码模块，V4-Flash 生成速度提升 60%-85%，已开源。正式版将引入 API 峰谷定价机制。",
+      "source": "太平洋科技 / 证券时报", "url": "https://www.toutiao.com/article/7657031560239120937"
+    },
+    {
+      "layer": "down", "stock": "智谱 02513.HK", "date": "2026-06-30",
+      "title": "智谱港股盘中暴拉超 11%，GLM-5.2 登顶全球开源模型智力榜",
+      "summary": "GLM-5.2 调用量环比 +66%，全球大模型智力指数 51 分居开源第一。中国大模型周调用量 20.39 万亿 Token，连续九周超美国稳居全球首位，带动算力租赁赛道爆发。",
+      "source": "证券时报", "url": "https://www.toutiao.com/article/7657031560239120937"
+    },
+    {
+      "layer": "up", "stock": "胜宏科技 300476 / 沪电股份 002463", "date": "2026-06-21",
+      "title": "Rubin VR200 机柜 PCB 价值量较 GB300 暴涨 +233%，A股 PCB 链直接受益",
+      "summary": "胜宏科技独占 Rubin 78 层正交背板 70% 份额；GB300 机柜需 7500 根 224G 铜缆（比 GB200+50%），立讯精密、华丰科技、兆龙互连等铜连接链单机柜价值量爆发。",
+      "source": "中信建投研报", "url": "https://www.tmtpost.com/agent/ai-article/18454"
+    },
+    {
+      "layer": "up", "stock": "中际旭创 300308 / 天孚通信 300394", "date": "2026-04",
+      "title": "谷歌下单 1200 万只 NPO 光模块（120-150 亿元），旭创 60% + 新易盛 40%",
+      "summary": "英伟达 GTC 2026 发布 Spectrum-X Photonics CPO 交换机量产，单端口功耗 30W→9W；台积电 COUPE 平台量产。CPO 越普及，天孚通信光引擎单机价值量越大。",
+      "source": "AI产业链全景图 / LightCounting", "url": ""
+    },
+    {
+      "layer": "up", "stock": "SK海力士 / 美光 MU", "date": "2026-06",
+      "title": "HBM4 进入 Rubin 供应链，DRAM/NAND 价格双双创历史新高",
+      "summary": "SK海力士 HBM4（16层48GB）直供 Rubin，全球第一。AI 云厂商 GPU 租赁价格持续上行，存储景气度形成结构性超级周期，兆易创新、北京君正等 A股存储链受益。",
+      "source": "钛媒体 / TrendForce", "url": "https://www.tmtpost.com/agent/ai-article/18454"
+    },
+    {
+      "layer": "trend", "stock": "宇树科技 / 智元机器人", "date": "2026-06",
+      "title": "人形机器人量产元年：宇树科技提交科创板注册，智元借壳上纬新材",
+      "summary": "宇树 G1 售价 9.9 万引爆市场，2026/6 进入提交注册即将上市；智元机器人（稚晖君）已借壳 A股上纬新材。Physical AI 开启 2026-2030 十年核心叙事。",
+      "source": "AI产业链全景图", "url": ""
+    },
+    {
+      "layer": "trend", "stock": "工业富联 601138", "date": "2026-06-01",
+      "title": "Rubin 全面投产带动整机柜代工，工业富联 GB200/GB300 组装超 70% 独家",
+      "summary": "工业富联 ODM 代工全球第一（>40%），英伟达整机柜组装独家份额 >70%，800G 交换机代工 >75%。Rubin 供应链规模翻倍，整机代工龙头直接受益。",
+      "source": "科创板日报", "url": "https://www.chaoqing-i.com/view_646.html"
+    }
+  ]
+}
